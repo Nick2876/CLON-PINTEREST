@@ -1,0 +1,169 @@
+*{
+
+    margin: 0;
+    padding: 0
+    ;box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: white;
+
+}
+
+header {
+    display:flex;
+    padding:2px 14px;
+    height: 80px;
+    width: 50px;
+    gap: 78px ;
+    
+
+}
+
+header .opciones{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+ 
+header  .opciones a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+header  .opciones img{
+  
+        height: 34px;
+        width: 34px;
+
+}
+
+header .izquierda{
+
+    Display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+header .izquierda img{
+
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    
+
+    
+}
+
+header  .buscador{
+  display: flex;
+  gap: 3px ;
+  align-items: center;
+  border:1px  gray;
+  padding: 20px 24px;
+  height: 50px;
+  border-radius:24px;
+  width: 900px 
+
+}
+
+header  .buscador{
+    background-color:rgb(236, 232, 232);
+}
+
+header  .buscador   input{
+    background-color: rgb(236, 232, 232);
+    border: none;
+    font-size: 115%;
+    width: 980px;
+    height:50px;
+    border-radius: 24px;
+    outline: 0px;
+}
+
+header .buscador  p{
+position: absolute;
+left: 22%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+color: #211922;
+}
+
+header  .izquierda button {
+border: none;
+   border-radius: 89px;
+   background-color:white;
+   color: whitesmoke;
+   font-size: small;
+   background-repeat: no-repeat;
+
+   
+   
+   
+}
+
+header  .izquierda button .flecha{
+    height: 34px;
+        width: 34px;
+
+}
+
+
+main {
+    height:calc(100% - 60 px - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+
+
+}
+main .Nico button {
+
+background-color: rgb(236, 232, 232);
+border: none;
+border-radius: 24px;
+font-size: 14px;
+padding: 7px;
+color: black;
+font-size: small;
+justify-content: center;
+width: 299px;
+height:110px;
+font-weight: bolder;
+font-size: 18px;
+
+
+}
+
+div .galeria {
+
+    display: grid;
+    outline: 3px solid black;
+    columns: 5 320px; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
